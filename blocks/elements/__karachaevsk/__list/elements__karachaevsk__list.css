@@ -1,0 +1,8 @@
+.elements__karachaevsk__list {
+    width: 282px;
+    height: 79px;
+    background: white;
+    display: flex;
+    flex-direction: row;
+    /* margin: 25px 15px 31px 21px; */
+}

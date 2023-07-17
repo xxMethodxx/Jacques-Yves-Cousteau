@@ -4,5 +4,10 @@
     margin-top: 67px;
     margin-left: 200px;
     margin-bottom: 60px;
-    background-color: white;
+    color: #545454;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }

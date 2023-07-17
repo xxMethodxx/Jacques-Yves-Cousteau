@@ -1,0 +1,7 @@
+.profile__info__button {
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    margin-top: 13px;
+    margin-left: 18px;
+}
