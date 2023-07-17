@@ -1,0 +1,9 @@
+.elements {
+    width: 880px;
+    height: 744px;
+    background-color: white;
+    margin: 51px auto 0;
+    border: 20px solid;
+    border-width: 20px;
+    border-color: red;
+}
