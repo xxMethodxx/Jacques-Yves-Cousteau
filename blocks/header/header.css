@@ -1,0 +1,7 @@
+.header {
+    width: 880px;
+    height: 74px;
+    flex-shrink: 0;
+    background-color: #545454;
+    color: white;
+}
