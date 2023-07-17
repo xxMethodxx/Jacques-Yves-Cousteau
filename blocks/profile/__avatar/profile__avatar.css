@@ -1,8 +1,8 @@
 .profile__avatar {
     width: 168.75px;
     height: 127.5px;
-    background-image: url('../../../image/profile/avatar/__avatar.jpg');
+    background-image: url('../../../image/profile/avatar/profile__avatar.png');
     background-repeat: no-repeat;
     background-size: cover;
-    /* border-radius: 50%; */
+    border-radius: 50%;
 }
