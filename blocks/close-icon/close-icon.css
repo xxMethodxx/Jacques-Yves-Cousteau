@@ -5,4 +5,11 @@
     background: url('../../image/close-icon.svg');
     position: absolute;
     left: 863px;
+    display: none;
+    border: none;
+    cursor: grab;
+}
+
+.visible {
+    display: block;
 }

@@ -14,13 +14,13 @@
         <div class="header__line"></div>
     </header>
     <main>
-        <div class="close-icon"></div>
+        <button class="close-icon"></button>
         <div class="form">
             <h1 class="form__title"> Редактировать профиль </h1>
             <p class="form__field-1"> Жак-Ив Кусто </p>
             <p class="form__field-2"> Исследователь океана </p>
             <p class="form__submit-buttom"> Сохранить</p>
-        
+
         </div>
         <section class="profile">
             <div class="profile__avatar"></div>
@@ -79,6 +79,18 @@
             </div>
         </section>
     </main>
+
+
+    <script>
+        let profileInfoButton = document.querySelector('.profile__info__button');
+        let profileInfoCloseButton = document.querySelector('.close-icon');
+        let form = document.querySelector('.form');
+        profileInfoButton.addEventListener('click', function (e) {
+            form.classList.toggle('visible');
+        }) 
+    </script>
+
+
     <footer class="footer">
         <p class="footer__text"> © 2020 Mesto Russia </p>
     </footer>

@@ -7,4 +7,9 @@
     top: 195px;
     left: 425px;
     z-index: 1;
+    display: none;
+}
+
+.visible {
+    display: block;
 }
