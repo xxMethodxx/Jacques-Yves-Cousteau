@@ -6,4 +6,5 @@
     margin-top: 13px;
     margin-left: 18px;
     background: url('../../../../image/profile/info/profile__info__button.svg');
+    cursor: pointer;
 }
