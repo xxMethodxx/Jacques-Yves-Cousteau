@@ -86,7 +86,8 @@
         let profileInfoCloseButton = document.querySelector('.close-icon');
         let form = document.querySelector('.form');
         profileInfoButton.addEventListener('click', function (e) {
-            form.classList.toggle('visible');
+            form.classList.toggle('visible'),
+            profileInfoCloseButton.classList.toggle('visible');
         }) 
     </script>
 
