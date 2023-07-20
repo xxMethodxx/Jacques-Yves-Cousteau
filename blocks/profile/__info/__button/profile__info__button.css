@@ -1,7 +1,9 @@
 .profile__info__button {
     width: 24px;
     height: 24px;
+    border: none;
     flex-shrink: 0;
     margin-top: 13px;
     margin-left: 18px;
+    background: url('../../../../image/profile/info/profile__info__button.svg');
 }

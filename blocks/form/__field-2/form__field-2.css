@@ -1,0 +1,13 @@
+.form__field-2 {
+    width: 358px;
+    height: 27px;
+    flex-shrink: 0;
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 30px auto 0;
+    border-bottom: 1px black solid;
+}
