@@ -30,3 +30,7 @@
 
     }
 }
+
+.close-profile__info:hover {
+    opacity: 0.6;
+}

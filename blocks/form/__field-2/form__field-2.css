@@ -8,7 +8,12 @@
     font-weight: 400;
     line-height: normal;
     margin: 30px auto 0;
+    display: block;
     border-bottom: 1px black solid;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    outline: none;
 }
 
 @media screen and (min-width: 320px) and (max-width: 320px) {
@@ -23,5 +28,11 @@
         font-weight: 400;
         line-height: normal;
         margin: 30px auto 0;
+        display: block;
+        border-bottom: 1px black solid;
+        border-left: none;
+        border-right: none;
+        border-top: none;
+        outline: none;
     }
 }
