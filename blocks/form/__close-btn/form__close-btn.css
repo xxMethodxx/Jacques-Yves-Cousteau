@@ -1,36 +1,32 @@
-.close-profile__info {
+.form__close-btn {
     width: 32px;
     height: 32px;
     flex-shrink: 0;
-    background: url('../../image/close-icon.svg');
+    background: url('../../../image/close-icon.svg');
     background-size: cover;
     position: absolute;
-    left: 863px;
-    display: none;
     border: none;
     cursor: pointer;
+    top: -9.5%;
+    left: 100%;
 }
 
-.visible {
-    display: block;
-}
 
 @media screen and (min-width: 320px) and (max-width: 320px) {
-    .close-profile__info {
+    .form__close-btn {
         width: 20px;
         height: 20px;
-        background: url('../../image/close-icon.svg');
+        background: url('../../../image/close-icon.svg');
         background-size: cover;
         position: absolute;
         border: none;
         cursor: pointer;
-        top: 87px;
-        left: 281px;
         background-repeat: no-repeat;
-
+        top: -6.5%;
+        left: 100%;
     }
 }
 
-.close-profile__info:hover {
+.form__close-btn:hover {
     opacity: 0.6;
 }

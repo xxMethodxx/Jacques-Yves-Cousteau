@@ -2,3 +2,15 @@
     width: 22px;
     height: 19px;
 }
+
+.elements__group:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.black {
+    width: 22px;
+    height: 19px;
+    background-image: url('../../../image/elements/black-likesvg.svg');
+    opacity: 1;
+}

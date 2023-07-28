@@ -25,6 +25,18 @@
         top: 123px;
         left: 19px;
         z-index: 1;
-        display: none;
+    }
+}
+
+@media screen and (min-width: 1920px) and (max-width: 1920px) {
+    .form {
+        width: 430px;
+        height: 330px;
+        position: absolute;
+        background-color: white;
+        border-radius: 10px;
+        top: 195px;
+        left: 745px;
+        z-index: 1;
     }
 }

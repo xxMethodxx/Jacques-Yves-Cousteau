@@ -7,5 +7,4 @@ form.onsubmit = function (evt) {
     evt.preventDefault();
     outputProfession.textContent = inputProfession.value;
     outputName.textContent = inputName.value;
-
 };
