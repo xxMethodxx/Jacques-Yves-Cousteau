@@ -1,8 +1,9 @@
-let likeButton = document.querySelector ('.elements__like');
-console.log (likeButton.length);
+let likeButton = document.querySelectorAll(".elements__like");
+console.log(likeButton.length);
 
-
-likeButton.onclick = function () {
-    console.log('Кнопка нажата');
-    likeButton.classList.toggle('black');
+for (let i = 0; i < likeButton.length; i++) {
+    likeButton[i].addEventListener('click', function () {
+        console.log('Кнопка нажата'); 
+        likeButton[i].classList.toggle('black');
+    })
 }
